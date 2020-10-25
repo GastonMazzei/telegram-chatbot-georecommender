@@ -84,7 +84,7 @@ def newfunc(update,context):
 
 def main():
     """Start the bot."""
-    TOKEN = "1241959095:AAH3Ev0NHRpyZtfVTxEx6xmZqX-9P4KogRY"
+    TOKEN = 0#
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
